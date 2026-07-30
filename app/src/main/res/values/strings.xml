@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AndroidAgent</string>
+    <string name="accessibility_service_description">Autonomous GUI agent control service. Perceives screen elements and executes taps/gestures.</string>
+</resources>

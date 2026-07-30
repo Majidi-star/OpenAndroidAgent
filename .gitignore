@@ -1,0 +1,36 @@
+# Gradle files and build outputs
+.gradle/
+**/build/
+/build
+.kotlin/
+
+# Local configuration (crucial to avoid sharing local SDK paths)
+/local.properties
+
+# IDE specific files
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+/out/
+
+# Android Studio temporary files and diagnostics
+/captures/
+.externalNativeBuild/
+.cxx/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Security & Private Credentials
+*.keystore
+*.jks
+credentials.properties
+secret.properties
+*.pem
+*.key
+*.token
+*.json
+!app/src/**/*.json # Allow assets or config JSONs in source
